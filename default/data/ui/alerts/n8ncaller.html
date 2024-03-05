@@ -1,0 +1,11 @@
+<form class="form-horizontal form-complex">
+    <div class="control-group">
+        <label class="control-label" for="n8n_workflow">Workflow</label>
+        <div class="controls">
+            <splunk-search-dropdown name="action.n8ncaller.param.webhook_id"
+            search=" | inputlookup n8n_workflows.csv"
+            value-field="webhook-id" label-field="workflow-name">
+            </splunk-search-dropdown>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,11 @@
+[alert_actions/n8ncaller]
+export = system
+
+[alerts]
+export = system
+
+[commands]
+export = system
+
+[restmap]
+export = system
